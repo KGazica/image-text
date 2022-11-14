@@ -1,0 +1,201 @@
+section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 64px 0px 0px;
+    position: relative;
+    width: 1440px;
+    height: 576px;
+    background: #E3CFCF;
+}
+
+img {
+
+    width: 720px;
+    height: 576px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+}
+
+content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    width: 720px;
+    height: 576px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#start {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    width: 512px;
+    height: 337px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#new {
+    padding: 0px;
+    gap: 24px;
+    width: 512px;
+    height: 161px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 130%;
+    text-align: center;
+    color: #000000;
+    order: 1;
+    align-self: center;
+    flex-grow: 0;
+}
+
+h1 {
+    width: 512px;
+    height: 84px;
+    font-weight: 275;
+    font-size: 32px;
+    line-height: 130%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+p {
+    width: 512px;
+    height: 161px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 130%;
+    text-align: center;
+    color: #000000;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+    width: 72px;
+    height: 18px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    text-align: center;
+}
+
+@media screen and (max-width:376px){
+    section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0px 64px 0px 0px;
+        position: relative;
+        width: 375px;
+        height: 764px;
+    }
+}
+
+@media screen and (max-width:376px){img{
+        width: 375px;
+        height: 300px;;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        left: 0px;
+        right: 0px;
+        top: 0px;
+        bottom: 0px;
+    }
+}
+@media screen and (max-width:376px){content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        width: 375px;
+        height: 464px;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }}
+    @media screen and (max-width:376px){#start {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        gap: 24px;
+        width: 343px;
+        height: 339px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;}}
+
+        @media screen and (max-width:376px){#new {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        gap: 24px;
+        width: 343px;
+        height: 150px;
+        align-self: center;
+        flex: none;
+        order: 0;
+        flex-grow: 0;}
+    }
+
+    @media screen and (max-width:376px){h1 {
+            width: 343px;
+            font-weight: 275;
+            font-size: 24px;
+            line-height: 130%;
+            text-align: center;
+            text-transform: uppercase;
+            flex: none;
+            order: 0;
+            align-self: stretch;
+            flex-grow: 0;
+        }}
+
+        @media screen and (max-width:376px){p{
+            width: 343px;
+            height: 189px;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 130%;
+            text-align: center;
+            flex: none;
+            order: 1;
+            align-self: stretch;
+            flex-grow: 0;}}
+
+            @media screen and (max-width:376px){button {
+                align-self: center;
+    }}
+    
